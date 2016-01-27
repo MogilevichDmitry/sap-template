@@ -54,16 +54,28 @@ common = (function($) {
 
     /* FIX HEADER */
     o.fixHeader = function() {
-        if (query) {
+        if (query) { //for mobile
             $(window).scroll(function () {
                 var temp = $(".b_fix");
                 var offset = temp.offset(); //Get the current coordinates of the first element,
                                             // or set the coordinates of every element, in the set of matched elements, relative to the document.
                 if (offset.top <= 10) {
-                    $(".page-header").removeClass('fix-header-mobile');
+                    $(".page-header").removeClass('fix-navigation-mobile');
                 }
                 else {
-                    $(".page-header").addClass('fix-header-mobile');
+                    $(".page-header").addClass('fix-navigation-mobile');
+                }
+            });
+        }
+        else{  // for desktop
+            $(window).scroll(function () {
+                var temp = $(".b_fix");
+                var offset = temp.offset();
+                if (offset.top <= 60) {
+                    $(".main-navigation").removeClass('fix-navigation-desktop');
+                }
+                else {
+                    $(".main-navigation").addClass('fix-navigation-desktop');
                 }
             });
         }

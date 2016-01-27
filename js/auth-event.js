@@ -46,3 +46,4 @@ function validate(form){
         showError(elems.password.parentNode, ' Укажите пароль.');
     }
 }
+/******************************/
