@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SAP</title>
+    <!--[if IE 8 ]>
+        <link rel="stylesheet/less" href="css/style-ie8.less" >
+    <![endif]-->
+
+    <!--[if (gte IE 9)|!(IE)]><!-->
+        <link rel="stylesheet/less" href="css/style.less">
+    <![endif]-->
+    <!--[if IE]>
+        <script>
+           document.createElement('header');
+           document.createElement('nav');
+           document.createElement('section');
+           document.createElement('article');
+           document.createElement('aside');
+           document.createElement('footer');
+        </script>
+    <![endif]-->
+    <script type="text/javascript" src="js/modernizr-custom.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/common-mobile.js"></script>
+    <script src="js/auth-event.js"></script>
+    <script src="js/less.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/layout/favicon.ico">
+</head>
+<body>
+<div class="wrapper">
+	<header class="page-header">
+        <div class="main">
+            <div class="b_fix"></div>
+       		<a class="logo" href="#" title="The Best-Run Businesses Run SAP">The Best-Run Businesses Run SAP</a>
+            <p class="site-name">The Best-Run Businesses Run SAP</p>
+            <p class="user-country">unated states</p>
+            <a class="login-link" href="#">login </a>
+            <p class="tel">+1 866 727-1482</p>
+            <a class="contact-link" href="#feedback">contact us</a>
+            <form class="search-desktop">
+                <input type="text" placeholder="Search" >
+                <input type="button" value="&#128269">
+            </form>
+            <nav class="main-navigation">
+                <li><a href="#">overview</a></li>
+                <li><a href="#">platform</a></li>
+                <li><a href="#">developers</a></li>
+                <li><a href="#">partners</a></li>
+                <li><a href="#">marketplace</a></li>
+            </nav>
+        </div><!--main-->
+        <div class="hidden-block-wrapper">
+            <div class="show-search show-block"></div>
+            <form class="search hidden-block">
+                <input type="text">
+                <input type="submit" value="SEARCH">
+            </form>
+        </div>
+        <div class="hidden-block-wrapper">
+            <div class="show-navigation show-block">
+            </div>
+            <nav class="main-navigation-mobile hidden-block">
+                <li><a href="#">overview</a></li>
+                <li><a href="#">platform</a></li>
+                <li><a href="#">developers</a></li>
+                <li><a href="#">partners</a></li>
+                <li><a href="#">marketplace</a></li>
+            </nav>
+        </div>
+
+        <div class="authorization-form">
+            <form class="auth">
+                <p>email </p>
+                <div><input type="text" name="email"></div>
+                <p>пароль</p>
+                <div><input type="password" name="password"></div>
+                <input type="button" value="Войти" onclick="validate(form)">
+                <a class="close-auth-form" href="#"></a>
+            </form>
+        </div><!-- auth-form -->
+    </header><!-- page-header -->
+
+    <div class="for-partners">
+    	<div class="main">
+        	<article class="info-about-partners">
+            	<h1>SAP HANA Cloud Partners</h1>
+                <h2>Boundless</h2>
+                <h2>Opportunities</h2>
+                <div class="partners-description">
+                	<p>Lorem ipsum dolor sit amet.  Conse cetuer adipiscing morbi com modo, idam dolor set.</p>  
+                </div>          
+            </article>
+        </div><!-- main --> 
+    </div><!-- for-partners -->
+    <div class="about-company">
+    	<div class="main">
+        	<article class="breif-info">
+            	<h1>Conse ctetuer adipiscing morbi.</h1>                
+                <p>Ipsum sed pharetra gravida. Nullam sit. Lorem ipsum dolor sit amet.
+                 Conse ctetuer adipiscing morbi comm odo, ipsum sed pharetra.
+                </p>
+            </article>
+            <blockquote class="review-about-us">
+           		<p>
+                    The world is looking for imagination 
+                    far beyond the walls of SAP, to the
+                    collective imagination of all of us.
+                </p>
+            	<footer>
+                	<p>Name Name, Company</p>
+                </footer>
+			</blockquote>
+
+            <div class="bxslider">
+                <article class="perfomance-block">
+                    <img src="images/content/target-img.jpg" alt="target">
+                    <h1>Nullam sit lorem dolor.</h1>
+                    <p>Lorem ipsum dolor sit amet.
+                        Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
+                    <a href="#" class="more-perfomance-info">Ipsum dolor</a>
+                </article>
+                <article class="perfomance-block">
+                    <img src="images/content/movie-img.jpg" alt="target">
+                    <h1>Conse odo pharetra amen.</h1>
+                    <p>Lorem ipsum dolor sit amet.
+                        Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
+                    <a href="#" class="more-perfomance-info">Ipsum dolor</a>
+                </article>
+                <article class="perfomance-block">
+                    <img src="images/content/notebook-img.jpg" alt="target">
+                    <h1>Morbi dolor nullam lorem.</h1>
+                    <p>Lorem ipsum dolor sit amet.
+                        Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
+                    <a href="#" class="more-perfomance-info">Ipsum dolor</a>
+                </article>
+            </div>
+
+        </div><!-- main -->
+    </div><!-- about-company -->
+    <div class="our-offer"> 	
+    	<div class="main">
+        	<article class="offer-block">
+            	<header class="offer-block-header">
+                	<h1>PartnerEdge</h1>
+                    <h2>Program</h2>
+                    <h3>1,700 + Partners</h3> 
+                	<p>Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra gravida. Nullam sit dolor amen.</p>
+                 </header>
+                 <footer class="offer-block-footer">                
+                    <h1>80 Lorem ipsum</h1>                                     
+                    <p>Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra gravida. Nullam sit dolor amen.</p>  
+                 </footer>              
+                 <div class="button">
+                	<a href="#">Join PartnerEdge</a>
+                 </div>  
+            </article>
+            <article class="offer-block">
+            	<header class="offer-block-header">
+                	<h1>Startup Focus</h1>
+                    <h2>Program</h2>
+                    <h3>1,000 + Startups</h3> 
+                	<p>Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra gravida. Nullam sit dolor amen.</p>
+                 </header>
+                 <footer class="offer-block-footer">                
+                    <h1>55 Countries</h1>                                     
+                    <p>Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra gravida. Nullam sit dolor amen.</p>  
+                 </footer>              
+                 <div class="button">
+                	<a href="#">Join Startup Focus</a>
+                 </div>  
+            </article>
+        </div><!-- main -->
+    </div><!-- our-offer -->
+    <div class="our-partners">
+    	<div class="main">
+        	<h1>Partnering With The World's Best</h1>
+            <div class="partners-tabs">
+                <div class="tab">
+                    <input type="radio" id="tab-1" name="tab-group-1" checked>
+                    <label for="tab-1">all</label>
+                    <div class="content">
+                        <p>Содержание закладки №1sddddddddddddddddddd</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab-2" name="tab-group-1">
+                    <label for="tab-2">hardware</label>
+                    <div class="content">
+                        <p>Содержание закладки №2Содержание закладки №1sdddddddddddddddddddСодержание закладки №1sddddddddddddddddddd</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab-3" name="tab-group-1">
+                    <label for="tab-3">software</label>
+                    <div class="content">
+                        <p>Содержание закладки №3</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab-4" name="tab-group-1">
+                    <label for="tab-4">consulting</label>
+                    <div class="content">
+                        <p>Содержание закладки №3</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab-5" name="tab-group-1">
+                    <label for="tab-5">hosting</label>
+                    <div class="content">
+                        <p>Содержание закладки №3</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" id="tab-6" name="tab-group-1">
+                    <label for="tab-6">startup</label>
+                    <div class="content">
+                        <p>Содержание закладки №3</p>
+                    </div>
+                </div>
+            </div>
+            <!-- slider -->        
+        </div><!-- main -->
+    </div><!-- our-partners -->
+    <div class="information-block">
+    	<div class="main">
+        	<h1>Already an SAP Partner?</h1>
+            <p>Lorem ipsum dolor sit amet.  Conse cetuer adipiscing morbi com modo, ipsum sed pharetra gravida. Nullam sit.</p>
+            <div class="button">
+                <a href="#"> Get Started with HANA Cloud</a>
+            </div>
+        </div><!-- main -->
+    </div><!-- information-block -->
+    <div class="feedback" id="feedback">
+    	<div class="main">
+        	<ul>
+                <a href="tel:+1 866 727-1482">
+                    <li class="tel-info">
+                       <h1>+1 866 727-1482</h1>
+                       <p>Call us</p>
+                    </li>
+                </a>
+                <a href="mailto:email@email.com">
+                    <li class="email-info">
+                        <h1 class="email-h-for-mobile">Email</h1>
+                        <h1 class="email-h-for-desktop">Ask SAP HANA</h1>
+                        <p>Connect with experts via e-mail.</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="expert-info">
+                        <h1>Ask an Expert</h1>
+                        <p>Start a discussion with community experts.</p>
+                    </li>
+                </a>
+            </ul>
+        </div><!-- main -->
+    </div><!-- feedback -->
+    <footer class="page-footer">
+    	<div class="main">
+        <a class="url-link" href="#">SAP.com</a>
+        	<ul class="footer-nav">
+            	<li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Legal Desclosure</a></li>
+                <li><a href="#">Copyright</a></li>                
+            </ul>
+        </div><!-- main -->
+    </footer><!-- page-footer -->
+</div><!-- wrapper -->
+</body>
+</html>
