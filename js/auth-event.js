@@ -66,26 +66,31 @@ $(document).on('click', '.moreless', function() {
         $('.more-info-about-partner').addClass("visible");
     }
 
-    /* move array */
+    /* move array and change img src */
     if ( tempId == "p-ibm"){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-ibm");
+        $('.partner-extra-img').attr("src", "./images/content/ibm-for-lb.jpg")
     }
     else if( tempId == "p-hp"){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-hp");
+        $('.partner-extra-img').attr("src", "./images/content/hp-for-lb.jpg")
     }
     else if( tempId == "p-cisco"){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-cisco");
+        $('.partner-extra-img').attr("src", "./images/content/cisco-for-lb.jpg")
     }
     else if( tempId == "p-sas"){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-sas");
+        $('.partner-extra-img').attr("src", "./images/content/sas-for-lb.jpg")
     }
     else if( tempId == "p-dell"){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-dell");
+        $('.partner-extra-img').attr("src", "./images/content/dell-for-lb.jpg")
     }
 });
 
