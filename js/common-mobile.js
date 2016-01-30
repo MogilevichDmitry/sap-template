@@ -1,4 +1,4 @@
-var query = Modernizr.mq('(max-width: 768px)');
+
 common = (function($) {
     var o = {};
     // Final version
@@ -37,6 +37,7 @@ common = (function($) {
 
     // I
     o.sliderInitialization = function() {
+        var query = Modernizr.mq('(max-width: 768px)');
         if (query) {
             if(!$('.bx-wrapper').size()) {
                 $('.bxslider').bxSlider({
@@ -54,11 +55,11 @@ common = (function($) {
 
     /* FIX HEADER */
     o.fixHeader = function() {
+        var query = Modernizr.mq('(max-width: 768px)');
         if (query) { //for mobile
             $(window).scroll(function () {
                 var temp = $(".b_fix");
-                var offset = temp.offset(); //Get the current coordinates of the first element,
-                                            // or set the coordinates of every element, in the set of matched elements, relative to the document.
+                var offset = temp.offset();
                 if (offset.top <= 10) {
                     $(".page-header").removeClass('fix-navigation-mobile');
                 }
@@ -67,7 +68,7 @@ common = (function($) {
                 }
             });
         }
-        else{  // for desktop
+       /* else{  // for desktop
             $(window).scroll(function () {
                 var temp = $(".b_fix");
                 var offset = temp.offset();
@@ -78,7 +79,7 @@ common = (function($) {
                     $(".main-navigation").addClass('fix-navigation-desktop');
                 }
             });
-        }
+        }*/
     };    /* FIX HEADER */
 
 

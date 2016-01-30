@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="tabs">
 <head>
 	<meta charset="utf-8">
 	<title>SAP</title>
@@ -20,11 +20,14 @@
            document.createElement('footer');
         </script>
     <![endif]-->
-    <script type="text/javascript" src="js/modernizr-custom.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+    <script src="js/modernizr-custom.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/common-mobile.js"></script>
     <script src="js/auth-event.js"></script>
+    <script src="js/tabs-angular.js"></script>
     <script src="js/less.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/layout/favicon.ico">
@@ -177,51 +180,33 @@
     <div class="our-partners">
     	<div class="main">
         	<h1>Partnering With The World's Best</h1>
-            <div class="partners-tabs">
-                <div class="tab">
-                    <input type="radio" id="tab-1" name="tab-group-1" checked>
-                    <label for="tab-1">all</label>
-                    <div class="content">
-                        <p>Содержание закладки №1sddddddddddddddddddd</p>
-                    </div>
-                </div>
-                <div class="tab">
-                    <input type="radio" id="tab-2" name="tab-group-1">
-                    <label for="tab-2">hardware</label>
-                    <div class="content">
-                        <p>Содержание закладки №2Содержани</p>
-                    </div>
-                </div>
-                <div class="tab">
-                    <input type="radio" id="tab-3" name="tab-group-1">
-                    <label for="tab-3">software</label>
-                    <div class="content">
-                        <p>Содержание закладки №3</p>
-                    </div>
-                </div>
-                <div class="tab">
-                    <input type="radio" id="tab-4" name="tab-group-1">
-                    <label for="tab-4">consulting</label>
-                    <div class="content">
-                        <p>Содержание закладки №3</p>
-                    </div>
-                </div>
-                <div class="tab">
-                    <input type="radio" id="tab-5" name="tab-group-1">
-                    <label for="tab-5">hosting</label>
-                    <div class="content">
-                        <p>Содержание закладки №3</p>
-                    </div>
-                </div>
-                <div class="tab">
-                    <input type="radio" id="tab-6" name="tab-group-1">
-                    <label for="tab-6">startup</label>
-                    <div class="content">
-                        <p>Содержание закладки №3</p>
-                    </div>
-                </div>
+            <div class="partners-tabs" ng-controller="MainController">
+
+                <ul class="tabs-navigation">
+                    <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='all'}">
+                        <a class="tab-link" href="#All">All</a>
+                    </li>
+                    <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='hardware'}">
+                        <a class="tab-link" href="#hardware">Hardware</a>
+                    </li>
+                    <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='software'}">
+                        <a class="tab-link"  href="#software">Software</a>
+                    </li>
+                    <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='consulting'}">
+                        <a class="tab-link"  href="#consulting">Consulting</a>
+                    </li>
+                    <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='hosting'}">
+                        <a class="tab-link"  href="#hosting">Hosting</a>
+                    </li>
+                    <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='startup'}">
+                        <a class="tab-link"  href="#startup">Startup</a>
+                    </li>
+                </ul>
+
+                <div ng-view></div>
+
             </div>
-            <!-- slider -->        
+
         </div><!-- main -->
     </div><!-- our-partners -->
     <div class="information-block">

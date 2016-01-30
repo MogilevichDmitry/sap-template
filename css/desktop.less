@@ -332,48 +332,31 @@
 }
 /* OUR PARTNERS */
 .our-partners{
-	//padding: 75px 30px 55px; // from mobile.less
+
 	.partners-tabs{
-		position: relative;
-		min-height: 200px;
-		clear: both;
-		margin: 55px 0 0 0; // 40px top + 15px tab
 
-		.tab{
-			float:left;
+		.tabs-navigation{
+			list-style-type: none;
 
-			label{
-				font-weight:bold;
-				padding: 15px 20px;
-				position: relative;
-				text-transform:capitalize;
-				cursor: pointer;
-			}
-			[type="radio"]{
-				display:none;
-			}
-			.content{
-				position: absolute;
-				top: 40px;
-				left: 0;
-				background: white;
-				right: 0;
-				bottom: 0;
-				padding: 20px;
-				border: 1px solid #ccc;
-			}
-			[type=radio]:checked ~ label {
-				background: #f0ab00;
-				color:white;
-				border-bottom: 1px solid white;
-				z-index: 2;
-			}
-			[type=radio]:checked ~ label ~ .content {
-				z-index: 1;
-			}
+			.tab-item{
+				float:left;
 
+				.tab-link{
+					float:left;
+					color:black;
+					font-weight:bold;
+					padding: 15px 20px;
+					text-transform:capitalize;
+					text-decoration:none;
+				}
+			}
+			.active-tab{
+				.tab-link {
+					background: #f0ab00;
+					color: white;
+				}
+			}
 		}
-
 	}
 }
 /* INFORMATION BLOCK*/
