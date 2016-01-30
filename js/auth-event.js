@@ -14,7 +14,6 @@ $(document).on('ready', function () {
             $("html,body").css("overflow","auto");
         });
 });
-
 /* validate */
 function showError(container, errorMessage){
     container.className = 'error-valid';
@@ -46,4 +45,21 @@ function validate(form){
         showError(elems.password.parentNode, ' Укажите пароль.');
     }
 }
-/******************************/
+
+$(document).on('click', '.moreless', function() {
+    var tempId = this.id;
+    var tempValue = document.getElementById(tempId).value;
+    if ( tempValue == "more ▼"){
+        document.getElementById(tempId).value = "less ▲";
+    }
+    else {
+        document.getElementById(tempId).value = "more ▼";
+    }
+
+    if ($('.more-info-about-partner').hasClass("visible")){
+        $('.more-info-about-partner').removeClass("visible");
+    }
+    else{
+        $('.more-info-about-partner').addClass("visible");
+    }
+});
