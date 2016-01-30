@@ -450,15 +450,14 @@
 
 		.more-info-about-partner{
 			margin-top:50px;
-			//overflow:hidden;
 			max-height:300px;
 			background:white;
 			position:relative;
 			&:after{
+				content:'';
 				bottom: 100%;
-				left: 10%;
+				//left: 10%;
 				border:13px solid white;
-				content: " ";
 				height: 0;
 				width: 0;
 				position: absolute;
@@ -467,7 +466,6 @@
 				border-bottom-color: #ffffff;
 				margin-left: -13px;
 			}
-
 			.partner-description{
 				padding:35px 40px 90px 50px;
 				display: inline-block;
@@ -497,6 +495,32 @@
 				height:300px;
 			}
 		}
+		.c-ibm{
+			&:after{
+				left:10%;
+			}
+		}
+		.c-hp{
+			&:after{
+				left:30%;
+			}
+		}
+		.c-cisco{
+			&:after{
+				left:50%;
+			}
+		}
+		.c-sas{
+			&:after{
+				left:70%;
+			}
+		}
+		.c-dell{
+			&:after{
+				left:90%;
+			}
+		}
+
 
 	}
 
