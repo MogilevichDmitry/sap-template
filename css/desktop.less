@@ -369,15 +369,22 @@
 			padding:20px 0 30px;
 		}
 		.partner-slider-item{
-			padding:17px 17px 8px;
-			width:146px; //180--17-17
-			height:185px; //210-17-8
+			display:inline-block;
+			padding:2px 17px 8px;
+			width:146px; //180-17-17
+			height:200px; //210-8-2
 			background:rgb(252,252,252);
 			-webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.4);
 			-moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.4);
 			box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.4);
 			.partner-logo{
-
+				text-align:center;
+				line-height:1;
+				min-height: 94px; //if small image
+				img{
+					max-width:135px;
+					max-height:94px;
+				}
 			}
 			h1{
 				font-size: 14px;
@@ -386,6 +393,9 @@
 				font-size: 14px;
 			}
 			.partner-slider-item-footer{
+				border-top: 1px solid #cacaca;
+				padding-top:10px;
+				margin-top:10px;
 				input[type="button"]{
 					color:#25a7e3;
 					font-weight: bold;
