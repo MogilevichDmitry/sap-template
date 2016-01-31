@@ -50,15 +50,14 @@ function validate(form){
 }
 
 $(document).on('click', '.moreless', function() {
+
     var tempId = "#" + $(this).attr("id");
     var tempValue = $(tempId).val();
-
     resetValue();
 
     /* change value button*/
     if ( tempValue == "more ▼"){
         $(tempId).val("less ▲");
-
     }
     else {
         $(tempId).val("more ▼");
@@ -116,9 +115,15 @@ function checkExcessClasses(){
 }
 
 function resetValue(){
+    $('#p-ibm').val("more ▼");
+    $('#p-hp').val("more ▼");
+    $('#p-cisco').val("more ▼");
+    $('#p-sas').val("more ▼");
+    $('#p-dell').val("more ▼");
     $('#p-ibm-a').val("more ▼");
     $('#p-hp-a').val("more ▼");
     $('#p-cisco-a').val("more ▼");
     $('#p-sas-a').val("more ▼");
     $('#p-dell-a').val("more ▼");
+
 }

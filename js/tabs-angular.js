@@ -7,7 +7,7 @@ module.controller('MainController', ['$rootScope', '$scope', '$route', function(
     $scope.routeInformation = $route;
 }]);
 
-module.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+module.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider ,$scope) {
 
     $routeProvider
 
@@ -37,6 +37,10 @@ module.config(['$routeProvider', '$locationProvider', function($routeProvider, $
         .when('/startup', {
             templateUrl: './templates/startup.html',
             activetab: 'startup'
+        })
+        .when('/lightbox', {
+            templateUrl: './templates/lightbox.html',
+            activetab: 'lightbox'
         })
 
         .otherwise({

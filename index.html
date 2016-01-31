@@ -20,14 +20,6 @@
            document.createElement('footer');
         </script>
     <![endif]-->
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
-    <script src="js/modernizr-custom.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/common-mobile.js"></script>
-    <script src="js/auth-event.js"></script>
-    <script src="js/tabs-angular.js"></script>
     <script src="js/less.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/layout/favicon.ico">
@@ -204,6 +196,9 @@
                     <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='startup'}">
                         <a class="tab-link"  href="#startup">Startup</a>
                     </li>
+                    <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='lightbox'}">
+                        <a class="tab-link"  href="#lightbox">Lightbox</a>
+                    </li>
                 </ul>
             </div>
 
@@ -353,4 +348,13 @@
     </footer><!-- page-footer -->
 </div><!-- wrapper -->
 </body>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/common-mobile.js"></script>
+    <script src="js/auth-event.js"></script>
+    <script src="js/tabs-angular.js"></script>
+    <script src="js/lightbox.js"></script>
 </html>

@@ -430,23 +430,26 @@
 
 		/* DIRECTION CONTROLS (NEXT / PREV) */
 
-		.bx-wrapper .bx-prev {
+		.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
 			display:block;
-			left:-30px;
 			background: white;
 			width:10px;
 			height:200px;
+
+			&:active{
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+			}
+		}
+		.bx-wrapper .bx-prev {
+			left: -30px;
 			-webkit-box-shadow: -1px 0px 7px -1px rgba(0,0,0,0.4);
 			-moz-box-shadow: -1px 0px 7px -1px rgba(0,0,0,0.4);
 			box-shadow: -1px 0px 7px -1px rgba(0,0,0,0.4);
 		}
-
 		.bx-wrapper .bx-next {
-			display:block;
 			right:-30px;
-			background: white;
-			width:10px;
-			height:200px;
 			-webkit-box-shadow: 1px 0px 7px -1px rgba(0,0,0,0.4);
 			-moz-box-shadow: 1px 0px 7px -1px rgba(0,0,0,0.4);
 			box-shadow: 1px 0px 7px -1px rgba(0,0,0,0.4);
