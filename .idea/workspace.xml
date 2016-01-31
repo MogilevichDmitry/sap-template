@@ -24,10 +24,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="295" column="48" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="48" />
+            <state vertical-scroll-proportion="-9.807693">
+              <caret line="295" column="73" selection-start-line="295" selection-start-column="73" selection-end-line="295" selection-end-column="73" />
               <folding>
-                <marker date="1454257427575" expanded="true" signature="344:630" placeholder="..." />
+                <marker date="1454259608395" expanded="true" signature="344:630" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -36,8 +36,8 @@
       <file leaf-file-name="mobile.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mobile.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.39813083">
-              <caret line="567" column="33" selection-start-line="567" selection-start-column="33" selection-end-line="567" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.5719626">
+              <caret line="581" column="35" selection-start-line="581" selection-start-column="35" selection-end-line="581" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -417,7 +417,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="110" column="59" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="59" />
           <folding>
-            <marker date="1454257427575" expanded="true" signature="344:630" placeholder="..." />
+            <marker date="1454259608395" expanded="true" signature="344:630" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -451,7 +451,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="12" />
           <folding>
-            <marker date="1454257427575" expanded="true" signature="344:630" placeholder="..." />
+            <marker date="1454259608395" expanded="true" signature="344:630" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -508,7 +508,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
           <folding>
-            <marker date="1454257427575" expanded="true" signature="344:630" placeholder="..." />
+            <marker date="1454259608395" expanded="true" signature="344:630" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -696,18 +696,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="295" column="48" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="48" />
+        <state vertical-scroll-proportion="-9.807693">
+          <caret line="295" column="73" selection-start-line="295" selection-start-column="73" selection-end-line="295" selection-end-column="73" />
           <folding>
-            <marker date="1454257427575" expanded="true" signature="344:630" placeholder="..." />
+            <marker date="1454259608395" expanded="true" signature="344:630" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.39813083">
-          <caret line="567" column="33" selection-start-line="567" selection-start-column="33" selection-end-line="567" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.5719626">
+          <caret line="581" column="35" selection-start-line="581" selection-start-column="35" selection-end-line="581" selection-end-column="35" />
           <folding />
         </state>
       </provider>
