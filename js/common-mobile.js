@@ -40,17 +40,26 @@ common = (function($) {
         var query = Modernizr.mq('(max-width: 768px)');
         if (query) {
             if(!$('.bx-wrapper').size()) {
-                $('.bxslider').bxSlider({
+                $('#slider1').bxSlider({
                     mode: 'horizontal',
                     captions: true
                 });
 
-                $('.bxslider2').bxSlider({
-                    mode: 'fade',
-                    captions: false
+                $('#slider2').bxSlider({
+                    mode: 'horizontal',
+                    captions: true,
+                    minSlides: 1,
+                    maxSlides: 1,
                 });
             }
         }
+       /* $('.slider4').bxSlider({
+            slideWidth: 300,
+            minSlides: 2,
+            maxSlides: 3,
+            moveSlides: 1,
+            slideMargin: 10
+        });*/
     };
 
     /* FIX HEADER */

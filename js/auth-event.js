@@ -12,8 +12,11 @@ $(document).on('ready', function () {
         .on('click', function (event) {
             $('.authorization-form').removeClass("visible");
             $("html,body").css("overflow","auto");
-        });
+    });
+
+
 });
+
 /* validate */
 function showError(container, errorMessage){
     container.className = 'error-valid';
@@ -49,10 +52,13 @@ function validate(form){
 $(document).on('click', '.moreless', function() {
     var tempId = "#" + $(this).attr("id");
     var tempValue = $(tempId).val();
+    //console.log(tempId);
 
     /* change value button*/
     if ( tempValue == "more ▼"){
+       // console.log($(tempId).val());
         $(tempId).val("less ▲");
+       // console.log($(tempId).val());
     }
     else {
         $(tempId).val("more ▼");
@@ -94,14 +100,16 @@ $(document).on('click', '.moreless', function() {
     }
 });
 
+
 function checkExcessClasses(){
     if( $('.more-info-about-partner').hasClass("c-ibm") || $('.more-info-about-partner').hasClass("c-hp")
         || $('.more-info-about-partner').hasClass("c-cisco") || $('.more-info-about-partner').hasClass("c-sas")
             ||$('.more-info-about-partner').hasClass("c-dell")){
-        $('.more-info-about-partner').removeClass("c-ibm");
-        $('.more-info-about-partner').removeClass("c-hp");
-        $('.more-info-about-partner').removeClass("c-cisco");
-        $('.more-info-about-partner').removeClass("c-sas");
-        $('.more-info-about-partner').removeClass("c-dell");
+
+                        $('.more-info-about-partner').removeClass("c-ibm");
+                        $('.more-info-about-partner').removeClass("c-hp");
+                        $('.more-info-about-partner').removeClass("c-cisco");
+                        $('.more-info-about-partner').removeClass("c-sas");
+                        $('.more-info-about-partner').removeClass("c-dell");
     }
 }

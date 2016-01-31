@@ -42,7 +42,7 @@
             <p class="user-country">unated states</p>
             <a class="login-link" href="#">login </a>
             <p class="tel">+1 866 727-1482</p>
-            <a class="contact-link" href="#feedback">contact us</a>
+            <a class="contact-link" href="#">contact us</a>
             <form class="search-desktop">
                 <input type="text" placeholder="Search" >
                 <input type="button" value="&#128269">
@@ -106,6 +106,7 @@
                  Conse ctetuer adipiscing morbi comm odo, ipsum sed pharetra.
                 </p>
             </article>
+
             <blockquote class="review-about-us">
            		<p>
                     The world is looking for imagination 
@@ -117,29 +118,31 @@
                 </footer>
 			</blockquote>
 
-            <div class="bxslider">
-                <article class="perfomance-block">
-                    <img src="images/content/target-img.jpg" alt="target">
-                    <h1>Nullam sit lorem dolor.</h1>
-                    <p>Lorem ipsum dolor sit amet.
-                        Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
-                    <a href="#" class="more-perfomance-info">Ipsum dolor</a>
-                </article>
-                <article class="perfomance-block">
-                    <img src="images/content/movie-img.jpg" alt="target">
-                    <h1>Conse odo pharetra amen.</h1>
-                    <p>Lorem ipsum dolor sit amet.
-                        Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
-                    <a href="#" class="more-perfomance-info">Ipsum dolor</a>
-                </article>
-                <article class="perfomance-block">
-                    <img src="images/content/notebook-img.jpg" alt="target">
-                    <h1>Morbi dolor nullam lorem.</h1>
-                    <p>Lorem ipsum dolor sit amet.
-                        Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
-                    <a href="#" class="more-perfomance-info">Ipsum dolor</a>
-                </article>
-            </div>
+            <div class="slider-wrapper1">
+                <ul id="slider1">
+                    <article class="perfomance-block">
+                        <img src="images/content/target-img.jpg" alt="target">
+                        <h1>Nullam sit lorem dolor.</h1>
+                        <p>Lorem ipsum dolor sit amet.
+                            Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
+                        <a href="#" class="more-perfomance-info">Ipsum dolor</a>
+                    </article>
+                    <article class="perfomance-block">
+                        <img src="images/content/movie-img.jpg" alt="target">
+                        <h1>Conse odo pharetra amen.</h1>
+                        <p>Lorem ipsum dolor sit amet.
+                            Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
+                        <a href="#" class="more-perfomance-info">Ipsum dolor</a>
+                    </article>
+                    <article class="perfomance-block">
+                        <img src="images/content/notebook-img.jpg" alt="target">
+                        <h1>Morbi dolor nullam lorem.</h1>
+                        <p>Lorem ipsum dolor sit amet.
+                            Conse ctetuer adipiscing. morbi comm odo, ipsum sed pharetra.</p>
+                        <a href="#" class="more-perfomance-info">Ipsum dolor</a>
+                    </article>
+                </ul>
+            </div><!-- slider-wrapper1-->
 
         </div><!-- main -->
     </div><!-- about-company -->
@@ -180,8 +183,8 @@
     <div class="our-partners">
     	<div class="main">
         	<h1>Partnering With The World's Best</h1>
-            <div class="partners-tabs" ng-controller="MainController">
 
+            <div class="partners-tabs" ng-controller="MainController" > <!--fix it -->
                 <ul class="tabs-navigation">
                     <li class="tab-item" ng-class="{'active-tab': routeInformation.current.activetab==='all'}">
                         <a class="tab-link" href="#All">All</a>
@@ -203,9 +206,104 @@
                     </li>
                 </ul>
             </div>
-        </div><!-- main -->
 
-        <div ng-view></div>
+
+        <!--mobile slider -->
+            <div class="slider-wrapper2">
+                <ul id="slider2">
+                    <li>
+                        <article class="partner-slider-item" >
+                            <div class="partner-logo">
+                                <img src="./images/content/ibm.jpg">
+                            </div>
+                            <h1>IBM</h1>
+                            <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                            <footer class="partner-slider-item-footer">
+                                <input class="moreless" id="p-ibm" type="button" value="more &#9660">
+                                <a class="get-video" href="#"></a>
+                                <a class="get-comments-form" href="#"></a>
+                            </footer>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="partner-slider-item">
+                            <div class="partner-logo">
+                                <img src="./images/content/hp.jpg">
+                            </div>
+                            <h1>HP</h1>
+                            <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                            <footer class="partner-slider-item-footer">
+                                <input class="moreless" id="p-hp" type="button" value="more &#9660">
+                                <a class="get-video" href="#"></a>
+                            </footer>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="partner-slider-item">
+                            <div class="partner-logo">
+                                <img src="./images/content/cisco.jpg">
+                            </div>
+                            <h1>Cisco</h1>
+                            <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                            <footer class="partner-slider-item-footer">
+                                <input class="moreless" id="p-cisco" type="button" value="more &#9660">
+                                <a class="get-video" href="#"></a>
+                                <a class="get-comments-form" href="#"></a>
+                            </footer>
+                        </article>
+                    </li>
+
+                    <li>
+                        <article class="partner-slider-item" >
+                            <div class="partner-logo">
+                                <img src="./images/content/dell.jpg">
+                            </div>
+                            <h1>Dell</h1>
+                            <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                            <footer class="partner-slider-item-footer">
+                                <input class="moreless" id="p-dell" type="button" value="more &#9660">
+                                <a class="get-video" href="#"></a>
+                            </footer>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="partner-slider-item" >
+                            <div class="partner-logo">
+                                <img src="./images/content/sas.jpg">
+                            </div>
+                            <h1>Sas</h1>
+                            <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                            <footer class="partner-slider-item-footer">
+                                <input class="moreless" id="p-sas" type="button" value="more &#9660">
+                                <a class="get-video" href="#"></a>
+                                <a class="get-comments-form" href="#"></a>
+                            </footer>
+                        </article>
+                    </li>
+                </ul>
+
+                <!-- MORE -->
+                <article class="more-info-about-partner">
+                    <div class="partner-description">
+                        <h1>Please, close "less", thanks ;)</h1>
+                        <h2>Sublime text.</h2>
+                        <p>Caption text lorem ipsum dolor sit amet,
+                            sectetuer adipiscing elit,
+                            Sed diam nonummy nibh euismod tincidunt  laoreet dolore magna aliquam erat volutpat.
+                        </p>
+                    </div>
+                    <img class="partner-extra-img" src="./images/content/ibm-for-lb.jpg">
+                </article>
+            </div><!-- slider-wrapper2 -->
+
+
+        </div><!-- main -->
+        <!--mobile slider -->
+
+        <div ng-view ></div>
+
 
     </div><!-- our-partners -->
     <div class="information-block">
@@ -217,7 +315,7 @@
             <a href="#"> Get Started with HANA Cloud</a>
         </div>
     </div><!-- information-block -->
-    <div class="feedback" id="feedback">
+    <div class="feedback">
     	<div class="main">
         	<ul>
                 <a href="tel:+1 866 727-1482">
