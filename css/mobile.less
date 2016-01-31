@@ -477,12 +477,14 @@
 		-webkit-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.4);
 		-moz-box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.4);
 		box-shadow: 0px 2px 7px -1px rgba(0,0,0,0.4);
+		text-align:left;
 
 		.partner-logo{
 			text-align:center;
 			line-height:1;
 			min-height: 94px; //if small image
 			img{
+				display:inline-block;
 				max-width:135px;
 				max-height:94px;
 			}
@@ -525,12 +527,13 @@
 	/* more-info-partner */
 
 	.more-info-about-partner{
-		margin-top:50px;
+		margin-top:20px;
 		max-height:300px;
 		background:white;
 		position:relative;
 		&:after{
 			content:'';
+			left:50%;
 			bottom: 100%;
 			border:13px solid white;
 			height: 0;
@@ -542,15 +545,13 @@
 			margin-left: -13px;
 		}
 		.partner-description{
-			padding:35px 40px 90px 50px;
+			padding:20px;
 			display: inline-block;
-			width:385px; //475 - 40 - 50
-			height:175px; //300 - 125
+
 			h1{
-				font-size: 30px;
+				font-size: 26px;
 				font-weight:normal;
-				padding-right:100px;
-				margin-bottom:26px;
+				margin-bottom:20px;
 			}
 			h2{
 				font-size: 19px;
@@ -560,14 +561,37 @@
 				font-size:17px;
 				line-height:1.24;
 			}
+			.get-video-more{
+				float:right;
+				text-decoration:none;
+				color:#00a1e4;
+				font-weight:bold;
+
+				&:after{
+					display:inline-block;
+					height:55px;
+					width:55px;
+					background:#00a1e4;
+					position:relative;
+					top:19px;
+					left:10px;
+					border-radius:50%;
+					content:'';
+				}
+				&:before{
+					content:'►';
+					font-size:34px;
+					color:white;
+					position:relative;
+					left:149px;
+					top:3px;
+					z-index:1;
+				}
+			}
 		}
 
 		img{
-			float:right;
-			position:relative;
-			top:0;
-			width:475px;
-			height:300px;
+			display:none;
 		}
 	}
 
