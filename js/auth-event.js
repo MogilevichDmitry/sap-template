@@ -52,13 +52,12 @@ function validate(form){
 $(document).on('click', '.moreless', function() {
     var tempId = "#" + $(this).attr("id");
     var tempValue = $(tempId).val();
-    //console.log(tempId);
+
 
     /* change value button*/
     if ( tempValue == "more ▼"){
-       // console.log($(tempId).val());
         $(tempId).val("less ▲");
-       // console.log($(tempId).val());
+
     }
     else {
         $(tempId).val("more ▼");
@@ -73,27 +72,27 @@ $(document).on('click', '.moreless', function() {
     }
 
     /* move array and change img src */
-    if ( tempId == "#p-ibm"){
+    if ( tempId == "#p-ibm" || tempId == '#p-ibm-a'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-ibm");
         $('.partner-extra-img').attr("src", "./images/content/ibm-for-lb.jpg")
     }
-    else if( tempId == "#p-hp"){
+    else if( tempId == "#p-hp" || tempId == '#p-hp-a'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-hp");
         $('.partner-extra-img').attr("src", "./images/content/hp-for-lb.jpg")
     }
-    else if( tempId == "#p-cisco"){
+    else if( tempId == "#p-cisco" || tempId == '#p-cisco-a'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-cisco");
         $('.partner-extra-img').attr("src", "./images/content/cisco-for-lb.jpg")
     }
-    else if( tempId == "#p-sas"){
+    else if( tempId == "#p-sas" || tempId == '#p-sas-a'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-sas");
         $('.partner-extra-img').attr("src", "./images/content/sas-for-lb.jpg")
     }
-    else if( tempId == "#p-dell"){
+    else if( tempId == "#p-dell" || tempId == '#p-dell-a'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-dell");
         $('.partner-extra-img').attr("src", "./images/content/dell-for-lb.jpg")
