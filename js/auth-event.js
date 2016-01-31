@@ -64,17 +64,13 @@ $(document).on('click', '.moreless', function() {
         $(tempId).val("more ▼");
     }
 
+
     /* set visible */
 
-    $('.more-info-about-partner').fadeIn(500);
-
-    /*  if (!$('.more-info-about-partner').hasClass("visible")){
-     $('.more-info-about-partner').addClass("visible");
-     }*/
+    $('.more-info-about-partner').show(500);
 
     if($(tempId).val() == "more ▼" ){
-        //$('.more-info-about-partner').removeClass("visible");
-        $('.more-info-about-partner').fadeOut(500);
+        $('.more-info-about-partner').hide(400);
     }
 
     /* move array and change img src */
