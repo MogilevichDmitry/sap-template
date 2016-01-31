@@ -65,11 +65,16 @@ $(document).on('click', '.moreless', function() {
     }
 
     /* set visible */
-    if (!$('.more-info-about-partner').hasClass("visible")){
-        $('.more-info-about-partner').addClass("visible");
-    }
-    else if($(tempId).val() == "more ▼" ){
-        $('.more-info-about-partner').removeClass("visible");
+
+    $('.more-info-about-partner').fadeIn(500);
+
+    /*  if (!$('.more-info-about-partner').hasClass("visible")){
+     $('.more-info-about-partner').addClass("visible");
+     }*/
+
+    if($(tempId).val() == "more ▼" ){
+        //$('.more-info-about-partner').removeClass("visible");
+        $('.more-info-about-partner').fadeOut(500);
     }
 
     /* move array and change img src */
