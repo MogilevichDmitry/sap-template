@@ -92,27 +92,27 @@ $(document).on('click', '.moreless', function() {
     }
 
     /* move array and change img src */
-    if ( tempId == "#p-ibm" || tempId == '#p-ibm-a'){
+    if ( tempId == "#p-ibm" || tempId == '#p-ibm-a' || tempId == '#p-ibm-b'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-ibm");
         $('.partner-extra-img').attr("src", "./images/content/ibm-for-lb.jpg")
     }
-    else if( tempId == "#p-hp" || tempId == '#p-hp-a'){
+    else if( tempId == "#p-hp" || tempId == '#p-hp-a' || tempId == '#p-hp-b'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-hp");
         $('.partner-extra-img').attr("src", "./images/content/hp-for-lb.jpg")
     }
-    else if( tempId == "#p-cisco" || tempId == '#p-cisco-a'){
+    else if( tempId == "#p-cisco" || tempId == '#p-cisco-a' || tempId == '#p-cisco-b'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-cisco");
         $('.partner-extra-img').attr("src", "./images/content/cisco-for-lb.jpg")
     }
-    else if( tempId == "#p-sas" || tempId == '#p-sas-a'){
+    else if( tempId == "#p-sas" || tempId == '#p-sas-a' || tempId == '#p-sas-b'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-sas");
         $('.partner-extra-img').attr("src", "./images/content/sas-for-lb.jpg")
     }
-    else if( tempId == "#p-dell" || tempId == '#p-dell-a'){
+    else if( tempId == "#p-dell" || tempId == '#p-dell-a' || tempId == '#p-dell-b'){
         checkExcessClasses();
         $('.more-info-about-partner').addClass("c-dell");
         $('.partner-extra-img').attr("src", "./images/content/dell-for-lb.jpg")
