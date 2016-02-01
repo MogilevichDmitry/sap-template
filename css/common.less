@@ -29,30 +29,33 @@ nav{
   text-align:center;
   overflow:hidden;
   width:100%;
-
   a{
     display:inline-block;
     text-decoration:none;
     color:white;
     font-size:25px;
     font-weight:bold;
-    padding:15px 0 35px 10px;
+    padding:30px 1px;
     width:100%;
-
-    &:after{
-      content:'';
-      display:inline-block;
-      background:url("../images/layout/blank-icon.png") no-repeat 0 0;
-      width:39px;
-      height:39px;
-      position:relative;
-      bottom:-10px;
-      left:10px;
-      margin-right:30px;
-    }
   }
   &:active{
     background: @button-color-active;
+  }
+}
+.newTabIcon{
+  a {
+    padding:20px 0 30px 5px;
+    &:after {
+      content: '';
+      display: inline-block;
+      background: url("../images/layout/blank-icon.png") no-repeat 0 0;
+      width: 39px;
+      height: 39px;
+      position: relative;
+      bottom: -10px;
+      left: 10px;
+      margin-right: 30px;
+    }
   }
 }
 .show-block{
