@@ -36,24 +36,48 @@
 	overflow:hidden;
 	.logo{
 		float:left;
+		&:hover{
+			opacity: 0.7;
+		}
 	}
 	p{
-		margin: 0 0;
-		padding: 0 0;
+		margin: 0;
+		padding: 0;
+		float:none;
 	}
 	.site-name, .user-country, .login-link, .contact-link, .tel{
-		float:left;
+		display:inline-block;
 		text-transform:capitalize;
-		display:block;
 		font-size:14px;
 		font-weight: bold;
 	}
 	.site-name{
+		float:left;
 		margin-top:10px;
+		max-width:250px;
+		max-height:18px;
+		overflow:hidden;
 	}
-	.user-country{
+	.first-line-info, .second-line-info{
 		position:relative;
-		left:266px;
+		float:left;
+		display:block;
+		font-size:13.5px;
+		max-height:20px;
+		width:205px;
+		overflow:hidden;
+		text-align:right;
+		a{
+			margin-left:15px;
+		}
+	}
+	.first-line-info{
+		top:-4px;
+		left:260px;
+	}
+	.second-line-info{
+		top:14px;
+		left:55px;
 	}
 	.login-link,.contact-link{
 		color:black;
@@ -62,20 +86,11 @@
 			text-decoration:underline;
 		}
 	}
-	.login-link{
-		position:relative;
-		left:281px;
-	}
-	.contact-link{
-		margin:20px 0 0 15px;
-	}
-	.tel{
-		margin:20px 0 0 60px;
-	}
+
 	.search-desktop{
 		display:block;
 		float:right;
-		margin:10px 4px 0 0;
+		margin:5px 4px 0 0;
 		max-width:175px;
 		position:relative;
 
@@ -102,7 +117,7 @@
 	.main-navigation {
 		display: block;
 		position: absolute;
-		top: 67px;
+		top: 63px;
 		border-radius: 5px;
 		li {
 			float: left;
