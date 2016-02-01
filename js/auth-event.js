@@ -19,12 +19,14 @@ $(document).on('ready', function () {
             $('.switcher').toggleClass("shareJquery");
 
             if($('.switcher').hasClass("shareJquery")){
-                $('.tab-content').fadeOut(400);
-                $('.partners-tabs').fadeOut(400);
+                $('.tab-content').hide(500);
+                $('.partners-tabs').hide(500);
+                $('.jquery-tabs').show(600);
             }
             else{
-                $('.tab-content').fadeIn(400);
-                $('.partners-tabs').fadeIn(400);
+                $('.tab-content').show(600);
+                $('.partners-tabs').show(600);
+                $('.jquery-tabs').hide(500);
             }
     });
 
