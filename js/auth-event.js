@@ -19,14 +19,14 @@ $(document).on('ready', function () {
             $('.switcher').toggleClass("shareJquery");
 
             if($('.switcher').hasClass("shareJquery")){
-                $('.tab-content').hide(500);
-                $('.partners-tabs').hide(500);
-                $('.jquery-tabs').show(600);
+                $('.tab-content').hide();
+                $('.partners-tabs').hide();
+                $('.jquery-tabs').show();
             }
             else{
-                $('.tab-content').show(600);
-                $('.partners-tabs').show(600);
-                $('.jquery-tabs').hide(500);
+                $('.tab-content').show();
+                $('.partners-tabs').show();
+                $('.jquery-tabs').hide();
             }
     });
 
