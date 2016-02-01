@@ -136,15 +136,20 @@ function checkExcessClasses(){
 }
 
 function resetValue(){
-    $('#p-ibm').val("more ▼");
-    $('#p-hp').val("more ▼");
-    $('#p-cisco').val("more ▼");
-    $('#p-sas').val("more ▼");
-    $('#p-dell').val("more ▼");
-    $('#p-ibm-a').val("more ▼");
-    $('#p-hp-a').val("more ▼");
-    $('#p-cisco-a').val("more ▼");
-    $('#p-sas-a').val("more ▼");
-    $('#p-dell-a').val("more ▼");
-
+    var more = "more ▼";
+    $('#p-ibm').val();
+    $('#p-hp').val(more);
+    $('#p-cisco').val(more);
+    $('#p-sas').val(more);
+    $('#p-dell').val(more);
+    $('#p-ibm-a').val(more);
+    $('#p-hp-a').val(more);
+    $('#p-cisco-a').val(more);
+    $('#p-sas-a').val(more);
+    $('#p-dell-a').val(more);
+    $('#p-ibm-b').val(more);
+    $('#p-hp-b').val(more);
+    $('#p-cisco-b').val(more);
+    $('#p-sas-b').val(more);
+    $('#p-dell-b').val(more);
 }

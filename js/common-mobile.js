@@ -49,9 +49,19 @@ common = (function($) {
                     mode: 'horizontal',
                     captions: true,
                     minSlides: 1,
-                    maxSlides: 1,
+                    maxSlides: 1
                 });
             }
+        }
+        else{
+            $('#slider3').bxSlider({
+                captions: true,
+                slideWidth:210,
+                minSlides: 5,
+                maxSlides: 5,
+                slideMargin: 192,
+                moveSlides: 1
+            });
         }
     };
 

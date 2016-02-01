@@ -20,6 +20,13 @@
            document.createElement('footer');
         </script>
     <![endif]-->
+
+    <!--[if IE]><![if !IE]><![endif]-->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+        <script src="js/tabs-angular.js"></script>
+    <!--[if IE]><![endif]><![endif]-->
+
     <script src="js/less.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/layout/favicon.ico">
@@ -178,7 +185,7 @@
 
             <!-- switcher -->
             <div class="switcher">
-                <p>Angular</p>
+                <p>AngularJS</p>
                 <input type="checkbox" class="checkbox" id="checkbox" />
                 <label for="checkbox">Jquery</label>
             </div>
@@ -312,80 +319,91 @@
         <div class="jquery-tabs">
             <div class="main">
                 <ul class="tabs-jquery">
-                    <li class="jt-active" id="jquery-all"><a href="">all</a></li>
-                    <li id="jquery-hardware"><a href="">hardware</a></li>
-                    <li id="jquery-software"><a href="">software</a></li>
-                    <li id="jquery-consulting"><a href="">consulting</a></li>
-                    <li id="jquery-hosting"><a href="">hosting</a></li>
-                    <li id="jquery-startup"><a href="">startup</a></li>
+                    <li class="jt-active" id="jquery-all"><a>all</a></li>
+                    <li id="jquery-hardware"><a>hardware</a></li>
+                    <li id="jquery-software"><a>software</a></li>
+                    <li id="jquery-consulting"><a>consulting</a></li>
+                    <li id="jquery-hosting"><a>hosting</a></li>
+                    <li id="jquery-startup"><a>startup</a></li>
                 </ul>
             </div><!-- main -->
             <div class="sliderJT">
-                <div class="slider-wrap">
+                <div class="slider-wrapper3">
+                    <ul id="slider3">
+                        <li>
+                            <article class="partner-slider-item" >
+                                <div class="partner-logo">
+                                    <img src="./images/content/ibm.jpg">
+                                </div>
+                                <h1>IBM</h1>
+                                <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                                <footer class="partner-slider-item-footer">
+                                    <input class="moreless" id="p-ibm-b" type="button" value="more &#9660">
+                                    <a class="get-video" href="#"></a>
+                                    <a class="get-comments-form" href="#"></a>
+                                </footer>
+                             </article>
+                        </li>
 
-                    <article class="partner-slider-item" >
-                        <div class="partner-logo">
-                            <img src="./images/content/ibm.jpg">
-                        </div>
-                        <h1>IBM</h1>
-                        <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
-                        <footer class="partner-slider-item-footer">
-                            <input class="moreless" id="p-ibm-b" type="button" value="more &#9660">
-                            <a class="get-video" href="#"></a>
-                            <a class="get-comments-form" href="#"></a>
-                        </footer>
-                    </article>
+                        <li>
+                            <article class="partner-slider-item">
+                                <div class="partner-logo">
+                                    <img src="./images/content/hp.jpg">
+                                </div>
+                                <h1>HP</h1>
+                                <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                                <footer class="partner-slider-item-footer">
+                                    <input class="moreless" id="p-hp-b" type="button" value="more &#9660">
+                                    <a class="get-video" href="#"></a>
+                                </footer>
+                            </article>
+                        </li>
 
-                    <article class="partner-slider-item">
-                        <div class="partner-logo">
-                            <img src="./images/content/hp.jpg">
-                        </div>
-                        <h1>HP</h1>
-                        <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
-                        <footer class="partner-slider-item-footer">
-                            <input class="moreless" id="p-hp-b" type="button" value="more &#9660">
-                            <a class="get-video" href="#"></a>
-                        </footer>
-                    </article>
+                        <li>
+                            <article class="partner-slider-item">
+                                <div class="partner-logo">
+                                    <img src="./images/content/cisco.jpg">
+                                </div>
+                                <h1>Cisco</h1>
+                                <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                                <footer class="partner-slider-item-footer">
+                                    <input class="moreless" id="p-cisco-b" type="button" value="more &#9660">
+                                    <a class="get-video" href="#"></a>
+                                    <a class="get-comments-form" href="#"></a>
+                                </footer>
+                            </article>
+                        </li>
 
-                    <article class="partner-slider-item">
-                        <div class="partner-logo">
-                            <img src="./images/content/cisco.jpg">
-                        </div>
-                        <h1>Cisco</h1>
-                        <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
-                        <footer class="partner-slider-item-footer">
-                            <input class="moreless" id="p-cisco-b" type="button" value="more &#9660">
-                            <a class="get-video" href="#"></a>
-                            <a class="get-comments-form" href="#"></a>
-                        </footer>
-                    </article>
+                        <li>
+                            <article class="partner-slider-item">
+                                <div class="partner-logo">
+                                    <img src="./images/content/sas.jpg">
+                                </div>
+                                <h1>SAS</h1>
+                                <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                                <footer class="partner-slider-item-footer">
+                                    <input class="moreless" id="p-sas-b" type="button" value="more &#9660">
+                                    <a class="get-video" href="#"></a>
+                                    <a class="get-comments-form" href="#"></a>
+                                </footer>
+                            </article>
+                        </li>
 
-                    <article class="partner-slider-item">
-                        <div class="partner-logo">
-                            <img src="./images/content/sas.jpg">
-                        </div>
-                        <h1>SAS</h1>
-                        <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
-                        <footer class="partner-slider-item-footer">
-                            <input class="moreless" id="p-sas-b" type="button" value="more &#9660">
-                            <a class="get-video" href="#"></a>
-                            <a class="get-comments-form" href="#"></a>
-                        </footer>
-                    </article>
+                        <li>
+                            <article class="partner-slider-item">
+                                <div class="partner-logo">
+                                    <img src="./images/content/dell.jpg">
+                                </div>
+                                <h1>Dell</h1>
+                                <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
+                                <footer class="partner-slider-item-footer">
+                                    <input class="moreless" id="p-dell-b" type="button" value="more &#9660">
+                                    <a class="get-video" href="#"></a>
+                                </footer>
+                            </article>
+                        </li>
 
-                    <article class="partner-slider-item">
-                        <div class="partner-logo">
-                            <img src="./images/content/dell.jpg">
-                        </div>
-                        <h1>Dell</h1>
-                        <p>Lorem ipsum dolor sit amet nullam amen etqer dolor est...</p>
-                        <footer class="partner-slider-item-footer">
-                            <input class="moreless" id="p-dell-b" type="button" value="more &#9660">
-                            <a class="get-video" href="#"></a>
-                        </footer>
-                    </article>
-
+                    </ul>
                     <!-- MORE -->
                     <article class="more-info-about-partner">
                         <div class="partner-description">
@@ -455,13 +473,12 @@
     </footer><!-- page-footer -->
 </div><!-- wrapper -->
 </body>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+
+
     <script src="js/modernizr-custom.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/common-mobile.js"></script>
     <script src="js/auth-event.js"></script>
-    <script src="js/tabs-angular.js"></script>
     <script src="js/lightbox.js"></script>
 </html>
