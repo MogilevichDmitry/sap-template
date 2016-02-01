@@ -14,7 +14,19 @@ $(document).on('ready', function () {
             $("html,body").css("overflow","auto");
     });
 
+    $('.checkbox')
+        .on('click', function (event){
+            $('.switcher').toggleClass("shareJquery");
 
+            if($('.switcher').hasClass("shareJquery")){
+                $('.tab-content').fadeOut(400);
+                $('.partners-tabs').fadeOut(400);
+            }
+            else{
+                $('.tab-content').fadeIn(400);
+                $('.partners-tabs').fadeIn(400);
+            }
+    });
 });
 
 /* validate */
