@@ -24,10 +24,22 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
+            <state vertical-scroll-proportion="-10.115385">
+              <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
               <folding>
-                <marker date="1454320124002" expanded="true" signature="344:630" placeholder="..." />
+                <marker date="1454323198382" expanded="true" signature="344:630" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth-event.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/auth-event.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.55025554">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#44#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -36,10 +48,10 @@
       <file leaf-file-name="desktop.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/desktop.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
-              <caret line="387" column="22" selection-start-line="387" selection-start-column="22" selection-end-line="387" selection-end-column="22" />
+            <state vertical-scroll-proportion="-2.7692308">
+              <caret line="425" column="17" selection-start-line="425" selection-start-column="17" selection-end-line="425" selection-end-column="17" />
               <folding>
-                <element signature="e#13009#13098#2" expanded="true" />
+                <element signature="e#13408#13497#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,18 +87,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth-event.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/auth-event.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5979557">
-              <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#44#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -117,8 +117,8 @@
         <option value="$PROJECT_DIR$/js/common-mobile.js" />
         <option value="$PROJECT_DIR$/js/tabs-angular.js" />
         <option value="$PROJECT_DIR$/templates/lightbox.html" />
-        <option value="$PROJECT_DIR$/css/desktop.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/desktop.less" />
         <option value="$PROJECT_DIR$/js/auth-event.js" />
       </list>
     </option>
@@ -354,7 +354,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="144" column="16" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
           <folding>
-            <element signature="e#13009#13098#2" expanded="true" />
+            <element signature="e#13408#13497#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -382,7 +382,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="110" column="59" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="59" />
           <folding>
-            <marker date="1454320124002" expanded="true" signature="344:630" placeholder="..." />
+            <marker date="1454323198382" expanded="true" signature="344:630" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -400,7 +400,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#13009#13098#2" expanded="true" />
+            <element signature="e#13408#13497#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -418,7 +418,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="12" />
           <folding>
-            <marker date="1454320124002" expanded="true" signature="344:630" placeholder="..." />
+            <marker date="1454323198382" expanded="true" signature="344:630" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -436,7 +436,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="123" column="40" selection-start-line="123" selection-start-column="32" selection-end-line="123" selection-end-column="40" />
           <folding>
-            <element signature="e#13009#13098#2" expanded="true" />
+            <element signature="e#13408#13497#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -477,7 +477,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
           <folding>
-            <marker date="1454320124002" expanded="true" signature="344:630" placeholder="..." />
+            <marker date="1454323198382" expanded="true" signature="344:630" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -503,7 +503,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding>
-            <element signature="e#13009#13098#2" expanded="true" />
+            <element signature="e#13408#13497#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -665,26 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="183" column="18" selection-start-line="183" selection-start-column="18" selection-end-line="183" selection-end-column="18" />
-          <folding>
-            <marker date="1454320124002" expanded="true" signature="344:630" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/desktop.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
-          <caret line="387" column="22" selection-start-line="387" selection-start-column="22" selection-end-line="387" selection-end-column="22" />
-          <folding>
-            <element signature="e#13009#13098#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/software.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-43.153847">
@@ -693,10 +673,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/desktop.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7692308">
+          <caret line="425" column="17" selection-start-line="425" selection-start-column="17" selection-end-line="425" selection-end-column="17" />
+          <folding>
+            <element signature="e#13408#13497#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.115385">
+          <caret line="198" column="18" selection-start-line="198" selection-start-column="18" selection-end-line="198" selection-end-column="18" />
+          <folding>
+            <marker date="1454323198382" expanded="true" signature="344:630" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/auth-event.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5979557">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.55025554">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>

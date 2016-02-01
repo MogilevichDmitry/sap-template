@@ -27,6 +27,13 @@ $(document).on('ready', function () {
                 $('.partners-tabs').fadeIn(400);
             }
     });
+
+    $('ul.tabs-jquery').on('click', 'li:not(.jt-active)', function() {
+        $(this)
+            .addClass('jt-active').siblings().removeClass('jt-active');
+    });
+
+
 });
 
 /* validate */
