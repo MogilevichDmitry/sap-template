@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state vertical-scroll-proportion="-24.26923">
+              <caret line="475" column="53" selection-start-line="475" selection-start-column="53" selection-end-line="475" selection-end-column="53" />
               <folding>
                 <marker date="1454402066757" expanded="true" signature="588:874" placeholder="..." />
               </folding>
@@ -33,21 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tablet.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tablet.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/tablet.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4301676">
+            <state vertical-scroll-proportion="-4.4423075">
               <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="desktop.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="desktop.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/desktop.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="842" column="24" selection-start-line="842" selection-start-column="24" selection-end-line="842" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5186501">
+              <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -78,8 +78,8 @@
       <file leaf-file-name="mobile.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mobile.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="691" column="0" selection-start-line="691" selection-start-column="0" selection-end-line="691" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/js/auth-event.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -142,15 +142,15 @@
         <option value="$PROJECT_DIR$/templates/software.html" />
         <option value="$PROJECT_DIR$/js/tabs-angular.js" />
         <option value="$PROJECT_DIR$/templates/lightbox.html" />
-        <option value="$PROJECT_DIR$/js/auth-event.js" />
         <option value="$PROJECT_DIR$/css/style-ie8.less" />
         <option value="$PROJECT_DIR$/css/common.less" />
         <option value="$PROJECT_DIR$/css/style.less" />
         <option value="$PROJECT_DIR$/js/common-mobile.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/desktop.less" />
-        <option value="$PROJECT_DIR$/css/mobile.less" />
         <option value="$PROJECT_DIR$/css/tablet.less" />
+        <option value="$PROJECT_DIR$/js/auth-event.js" />
+        <option value="$PROJECT_DIR$/css/mobile.less" />
+        <option value="$PROJECT_DIR$/css/desktop.less" />
       </list>
     </option>
   </component>
@@ -709,10 +709,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/tablet.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4423075">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/auth-event.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
             <element signature="e#0#44#0" expanded="false" />
           </folding>
@@ -729,34 +737,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="-24.26923">
+          <caret line="475" column="53" selection-start-line="475" selection-start-column="53" selection-end-line="475" selection-end-column="53" />
           <folding>
             <marker date="1454402066757" expanded="true" signature="588:874" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/desktop.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="842" column="24" selection-start-line="842" selection-start-column="24" selection-end-line="842" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mobile.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="691" column="0" selection-start-line="691" selection-start-column="0" selection-end-line="691" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/tablet.less">
+    <entry file="file://$PROJECT_DIR$/css/desktop.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4301676">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.5186501">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
           <folding />
         </state>
       </provider>

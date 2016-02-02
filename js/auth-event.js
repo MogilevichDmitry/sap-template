@@ -1,19 +1,24 @@
 /**
  * Created by Дмитрий on 24.01.2016.
  */
+
 $(document).on('ready', function () {
+
+    // set visible authorization-form if click on "login"
     $('.login-link')
         .on('click', function(event){
         $('.authorization-form').addClass("visible");
             $("html,body").css("overflow","hidden");
     });
 
+    // delete visible authorization-form if click on "close-button"
     $('.close-auth-form')
         .on('click', function (event) {
             $('.authorization-form').removeClass("visible");
             $("html,body").css("overflow","auto");
     });
 
+    //switch jquery-tabs/angular-tabs
     $('.checkbox')
         .on('click', function (event){
             $('.switcher').toggleClass("shareJquery");
@@ -30,6 +35,7 @@ $(document).on('ready', function () {
             }
     });
 
+    //set active class on active jquery-tab
     $('ul.tabs-jquery').on('click', 'li:not(.jt-active)', function() {
         $(this)
             .addClass('jt-active').siblings().removeClass('jt-active');
@@ -38,7 +44,7 @@ $(document).on('ready', function () {
 
 });
 
-/* validate */
+
 function showError(container, errorMessage){
     container.className = 'error-valid';
     var msgElem = document.createElement('span');
@@ -86,7 +92,6 @@ $(document).on('click', '.moreless', function() {
 
 
     /* set visible */
-
     $('.more-info-about-partner').show(500);
 
     if($(tempId).val() == "more ▼" ){
@@ -121,7 +126,7 @@ $(document).on('click', '.moreless', function() {
     }
 });
 
-
+// delete excessClasses "c-..."
 function checkExcessClasses(){
     if( $('.more-info-about-partner').hasClass("c-ibm") || $('.more-info-about-partner').hasClass("c-hp")
         || $('.more-info-about-partner').hasClass("c-cisco") || $('.more-info-about-partner').hasClass("c-sas")
@@ -135,6 +140,7 @@ function checkExcessClasses(){
     }
 }
 
+// set all value more
 function resetValue(){
     var more = "more ▼";
     $('#p-ibm').val();
