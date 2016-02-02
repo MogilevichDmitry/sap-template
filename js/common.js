@@ -106,7 +106,7 @@ common = (function($) {
             });
         }
         // fix main-navigation
-      /*  else{
+        else{
             $(window).scroll(function () {
                 var temp = $(".b_fix");
                 var offset = temp.offset();
@@ -117,7 +117,7 @@ common = (function($) {
                     $(".main-navigation").addClass('fix-navigation-desktop');
                 }
             });
-        }*/
+        }
     };
 
 

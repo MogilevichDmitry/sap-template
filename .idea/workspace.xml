@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-ie8.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style-ie8.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style-ie8.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5737122">
+            <state vertical-scroll-proportion="-12.423077">
               <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
@@ -107,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.94227505">
+              <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -148,11 +148,11 @@
         <option value="$PROJECT_DIR$/css/tablet.less" />
         <option value="$PROJECT_DIR$/js/auth-event.js" />
         <option value="$PROJECT_DIR$/js/event.js" />
-        <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/mobile.less" />
         <option value="$PROJECT_DIR$/css/desktop.less" />
         <option value="$PROJECT_DIR$/css/style-ie8.less" />
+        <option value="$PROJECT_DIR$/js/common.js" />
       </list>
     </option>
   </component>
@@ -695,26 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/tablet.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.4423075">
           <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4423077">
-          <caret line="530" column="32" selection-start-line="530" selection-start-column="31" selection-end-line="530" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -739,8 +723,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style-ie8.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5737122">
+        <state vertical-scroll-proportion="-12.423077">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4423077">
+          <caret line="530" column="32" selection-start-line="530" selection-start-column="31" selection-end-line="530" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94227505">
+          <caret line="132" column="3" selection-start-line="132" selection-start-column="3" selection-end-line="132" selection-end-column="3" />
           <folding />
         </state>
       </provider>
