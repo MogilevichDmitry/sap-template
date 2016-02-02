@@ -77,7 +77,7 @@ common = (function($) {
         }
     };
 
-    /* FIX HEADER */
+    // fix navigation-mobile
     o.fixHeader = function() {
         var query = Modernizr.mq('(max-width: 1024px)');
         if (query) { //for mobile
@@ -92,7 +92,8 @@ common = (function($) {
                 }
             });
         }
-       /* else{  // for desktop
+        // fix main-navigation
+      /*  else{
             $(window).scroll(function () {
                 var temp = $(".b_fix");
                 var offset = temp.offset();
