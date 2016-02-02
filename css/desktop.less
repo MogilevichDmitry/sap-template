@@ -119,6 +119,11 @@
 		position: absolute;
 		top: 63px;
 		border-radius: 5px;
+
+		max-width: 950px;
+		max-height: 68px;
+		overflow: hidden;
+
 		li {
 			float: left;
 			background: url("../images/layout/main-menu-bg-repeat-x.png") repeat-x 0 0;
@@ -244,7 +249,7 @@
 .for-partners {
 	padding:117px 0 0 0;
 	.info-about-partners{
-		.partners-description{
+		.information-for-partners{
 			p{
 				padding-top:33px;
 			}
@@ -267,21 +272,32 @@
 		float:left;
 		max-width:425px;
 		h1{
-
+			max-width: 425px;
+			max-height: 21px;
+			overflow: hidden;
+		}
+		p{
+			max-width: 425px;
+			max-height: 54px;
+			overflow: hidden;
+			text-overflow: ellipsis;
 		}
 	}
 	.review-about-us{
 		background: white;
 		padding: 0 0;
-		//margin-left:60px;
 		float:right;
 		max-width:445px;
 
 		p{
-			max-width:355px;
+			max-width: 445px;
+			max-height: 63px;
+			overflow: hidden;
+			text-overflow: ellipsis;
 			padding: 0 0 0 30px;
 		}
 		footer{
+			max-height: 18px;
 			text-align:left;
 		}
 	}
