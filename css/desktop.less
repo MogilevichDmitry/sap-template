@@ -496,6 +496,9 @@
 	.tabs-jquery{
 		float:left;
 		list-style-type: none;
+		overflow:hidden;
+		max-width:750px;
+		max-height:48px;
 
 		li{
 			float:left;
@@ -653,7 +656,12 @@
 
 	.header-our-partners {
 		display:inline-block;
-		padding: 45px 0 35px;
+		padding: 45px 0 0;
+		margin-bottom:35px;
+		overflow:hidden;
+		max-width: 950px;
+		max-height: 75px;
+
 	}
 
 	.partners-tabs{
@@ -662,6 +670,9 @@
 		.tabs-navigation{
 			float:left;
 			list-style-type: none;
+			overflow:hidden;
+			max-width: 708px;
+			max-height: 48px;
 
 			.tab-item{
 				float:left;
@@ -823,10 +834,15 @@
 		margin-top:27px;
 	}
 	h1{
+		overflow:hidden;
+		max-height:100px;
 		max-width:210px;
 	}
 	p{
+		overflow:hidden;
 		max-width:290px;
+		max-height:54px;
+		text-overflow:ellipsis;
 	}
 }
 
@@ -839,6 +855,8 @@
 			display:block;
 			max-width: 180px;
 			height:36px;
+			max-height: 36px;
+			overflow:hidden;
 			text-align:left;
 			margin: 5px 0 0 107px;
 		}
@@ -887,15 +905,19 @@
 	border-bottom:none;
 	padding:35px 0 32px;
 	.url-link{
-		width:auto;
-		margin-right:30px;
+		overflow:hidden;
+		max-width: 70px;
+		max-height: 18px;
+		margin:0 30px 0 0;
 		&:hover{
 			text-decoration:none;
 		}
 	}
 	.footer-nav{
 		position:relative;
-		top:5px;
+		overflow:hidden;
+		max-width: 425px;
+		max-height: 18px;
 		li{
 			a{
 				&:hover{
