@@ -287,7 +287,7 @@
 		background: white;
 		padding: 0 0;
 		float:right;
-		max-width:445px;
+		max-width:415px;
 
 		p{
 			max-width: 445px;
@@ -309,6 +309,22 @@
 	padding: 0;
 
 	.perfomance-block {
+		overflow:hidden;
+		img{
+			max-width:150px;
+			max-height:150px;
+		}
+		h1{
+			overflow:hidden;
+			max-width:215px;
+			max-height:71px;
+		}
+		p{
+			overflow:hidden;
+			max-width:215px;
+			max-height:72px;
+			text-overflow: ellipsis;
+		}
 		.more-perfomance-info {
 			display:none;
 		}
@@ -346,16 +362,27 @@
 			padding: 25px 50px 25px 38px;
 
 			h1 {
-				width: 100%
+				max-width:277px;
+				max-height:34px;
+				overflow:hidden;
 			}
 			h2 {
 				margin-bottom: 25px;
+				max-width:110px;
+				max-height:32px;
+				overflow:hidden;
 			}
 			h3 {
+				max-width:277px;
+				max-height:32px;
+				overflow:hidden;
 				margin-bottom: 20px;
 			}
 			p {
-
+				max-width:277px;
+				max-height:54px;
+				overflow:hidden;
+				text-overflow: ellipsis;
 			}
 		}
 
@@ -364,11 +391,26 @@
 			background: black;
 
 			h1 {
+				max-width:277px;
+				max-height:31px;
+				overflow:hidden;
 				margin-bottom: 20px;
+			}
+			p{
+				max-width:277px;
+				max-height:54px;
+				overflow:hidden;
+				text-overflow: ellipsis;
 			}
 		}
 		.button{
-			max-width: 215px;
+			overflow: hidden;
+			a {
+				max-width: 215px;
+				max-height: 21px;
+			}
+			max-width:215px;
+			max-height:51px;
 			position: relative;
 			left: 165px;
 			top: -15px;
@@ -770,6 +812,14 @@
 .information-block{
 	padding: 50px 20px 70px;
 	.button{
+		overflow: hidden;
+		a {
+			max-width: 325px;
+			max-height: 21px;
+		}
+		max-width:325px;
+		max-height:51px;
+
 		margin-top:27px;
 	}
 	h1{
