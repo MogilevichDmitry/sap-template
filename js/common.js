@@ -75,6 +75,19 @@ common = (function($) {
                 moveSlides: 1
             });
         }
+        
+        //for ie8  only
+        if (navigator.userAgent.match(/MSIE 8/) !== null) {
+            $('#slider3').bxSlider({
+                captions: true,
+                slideWidth:210,
+                minSlides: 5,
+                maxSlides: 5,
+                slideMargin: 192,
+                moveSlides: 1
+            });
+        }
+
     };
 
     // fix navigation-mobile
